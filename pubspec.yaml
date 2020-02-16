@@ -1,0 +1,29 @@
+name: flutter_frame
+description: Flutter library with frame for new projects
+version: 1.0.0
+author: Vicent Mereti
+homepage: https://github.com/vmeretin/flutter_frame
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+  #app
+
+  flutter:
+    sdk: flutter
+  fluro: ^1.5.2
+
+  #data
+
+  streaming_shared_preferences: ^1.0.1
+
+  #domain
+
+  get_it: ^3.1.0
+  rxdart: ^0.23.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
